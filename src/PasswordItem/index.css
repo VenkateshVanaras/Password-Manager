@@ -1,0 +1,56 @@
+.list-item {
+  background-color: aliceblue;
+  height: 100px;
+  width: 200px;
+  margin-bottom: 5px;
+  list-style-type: none;
+  margin-right: 20px;
+  border: 1px solid #94a3b8;
+  background-color: transparent;
+  border-radius: 5px;
+  display: flex;
+}
+
+.initial-letter {
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  font-weight: 500;
+  color: #94a3b8;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-left: 10px;
+}
+.password-img {
+  height: 10px;
+}
+.all-paras {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 2px;
+  padding-top: 10px;
+  margin-top: 2px;
+  min-width: 70px;
+  padding-bottom: 10px;
+}
+.para {
+  font-size: 10px;
+  margin-top: 2px;
+  color: #fff;
+}
+.delete-button {
+  background-color: transparent;
+  margin-left: 30px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.delete {
+  height: 20px;
+}
